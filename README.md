@@ -45,6 +45,21 @@ const CONFIG = {
 
 Open the browser console on a YouTube page and run `__ytRotate.status()`. If the object does not exist, the script is not running (check Developer mode and that the script is enabled).
 
+## Credits
+
+| Purpose | Component | License |
+|---|---|---|
+| Userscript manager (runs the script) | [Tampermonkey](https://www.tampermonkey.net/) | see upstream |
+| Userscript manager (alternative) | [Violentmonkey](https://violentmonkey.github.io/) | MIT |
+
+Developed with the help of [Claude Code](https://claude.com/claude-code) (Anthropic).
+
+## Author
+
+- Website: https://shaoenstudio.com
+- Email: shaoenstudio@gmail.com
+- GitHub: [@shaoen901109](https://github.com/shaoen901109)
+
 ## License
 
 [MIT](LICENSE)
