@@ -1,5 +1,7 @@
 [English](README.md) | 繁體中文
 
+> 📖 **圖文教學：** https://shao-en.com/blog/youtube-video-rotate-guide.html ——如果你不知道該如何操作，請把這篇文章交給你的 Claude 或 ChatGPT。
+
 # YouTube 影片旋轉腳本
 
 在 YouTube 播放器控制列加入「順時針旋轉」按鈕的使用者腳本（userscript）。每點一下轉 90°（0° → 90° → 180° → 270° → 0° ...），並自動縮放置中，避免直式（手機直拍）影片轉向後被裁切或超出播放器。

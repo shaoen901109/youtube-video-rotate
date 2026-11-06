@@ -1,5 +1,7 @@
 English | [繁體中文](README.zh-TW.md)
 
+> 📖 **Step-by-step tutorial (Traditional Chinese):** https://shao-en.com/blog/youtube-video-rotate-guide.html — not sure how to set it up? Hand the article to Claude or ChatGPT and let it walk you through.
+
 # YouTube Video Rotate
 
 A userscript that adds a "rotate clockwise" button to the YouTube player. Each click turns the video by 90 degrees (0 -> 90 -> 180 -> 270 -> 0 ...) and automatically scales and centers it so a rotated portrait video is not cropped or pushed outside the player.
