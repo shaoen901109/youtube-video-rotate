@@ -47,6 +47,28 @@ const CONFIG = {
 
 Open the browser console on a YouTube page and run `__ytRotate.status()`. If the object does not exist, the script is not running (check Developer mode and that the script is enabled).
 
+## Verify your download
+
+Download `youtube-video-rotate-v1.0.0.zip` and `SHA256SUMS.txt` from [Releases](https://github.com/shaoen901109/youtube-video-rotate/releases) (use the version you actually downloaded).
+
+1. Compare the checksum in PowerShell:
+
+   ```powershell
+   Get-FileHash .\youtube-video-rotate-v1.0.0.zip -Algorithm SHA256
+   ```
+
+   The `Hash` must match the string in `SHA256SUMS.txt` (letter case does not matter).
+
+2. Verify where it was built (needs [GitHub CLI](https://cli.github.com/)):
+
+   ```powershell
+   gh attestation verify .\youtube-video-rotate-v1.0.0.zip --repo shaoen901109/youtube-video-rotate
+   ```
+
+   A successful result means GitHub Actions built this zip from this repository's source and it was not swapped along the way.
+
+Commits marked **Verified** on GitHub are signed by the author.
+
 ## Credits
 
 | Purpose | Component | License |
